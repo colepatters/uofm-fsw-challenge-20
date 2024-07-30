@@ -2,3 +2,14 @@
   max-width: 1500px;
   gap: 50px;
 }
+
+.project-card {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.project-card img {
+  height: inherit;
+  object-fit: cover;
+}

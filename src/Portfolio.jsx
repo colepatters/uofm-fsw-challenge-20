@@ -1,4 +1,6 @@
 import "./assets/portfolio.css"
+import { projects } from "./assets/projectsDesc"
+import Project from "./Project"
 
 function Portfolio() {
     return (
@@ -7,12 +9,7 @@ function Portfolio() {
         
         <div className="d-flex justify-content-center">
             <div id="project-container" className="d-flex flex-wrap justify-content-center align-items-center">
-                <img src="https://placehold.co/600x400" className="img-fluid rounded" alt="" />
-                <img src="https://placehold.co/600x400" className="img-fluid rounded" alt="" />
-                <img src="https://placehold.co/600x400" className="img-fluid rounded" alt="" />
-                <img src="https://placehold.co/600x400" className="img-fluid rounded" alt="" />
-                <img src="https://placehold.co/600x400" className="img-fluid rounded" alt="" />
-                <img src="https://placehold.co/600x400" className="img-fluid rounded" alt="" />
+                {projects.map((project) => <Project project={project} key={project.urlName} />)}
             </div>
         </div>
     </div>

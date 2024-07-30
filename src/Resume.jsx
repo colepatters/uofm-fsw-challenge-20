@@ -59,6 +59,26 @@ function Resume() {
                     <li>MERN Stack (MongoDB, Express, React, Node)</li>
                 </ul>
             </section>
+
+            <section>
+                <h3>Cloud Computing & DevOps</h3>
+                <ul>
+                    <li>Amazon Web Services (AWS)</li>
+                    <li>Microsoft Azure</li>
+                    <li>Google Cloud Platform (GCP)</li>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Operating Systems</h3>
+                <ul>
+                    <li>Linux</li>
+                    <li>Mircosoft Windows</li>
+                    <li>MacOS</li>
+                </ul>
+            </section>
         </div>
     )
 }
