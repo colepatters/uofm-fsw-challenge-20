@@ -1,6 +1,6 @@
-import "./assets/contact.css"
+import "../assets/contact.css"
 
-function Contact() {
+export default function ContactPage() {
     return (
         <div className="p-4">
             <h1>Contact</h1>
@@ -8,15 +8,15 @@ function Contact() {
                 <form className="w-100" action="">
                     <div className="mb-3">
                         <label htmlFor="name" className="form-label">Name</label>
-                        <input type="text" className="form-control" name="name" id="name" />
+                        <input type="text" className="form-control" name="name" id="name" required />
                     </div>
                     <div className="mb-3">
                         <label htmlFor="email" className="form-label">Email</label>
-                        <input type="email" className="form-control" name="email" id="" />
+                        <input type="email" className="form-control" name="email" id="" required />
                     </div>
                     <div className="mb-3">
                         <label htmlFor="message" className="form-label">Message</label>
-                        <textarea name="message" className="form-control" rows="10"></textarea>
+                        <textarea name="message" className="form-control" rows="10" required></textarea>
                     </div>
                     <button type="submit" className="btn btn-primary">Submit</button>
                 </form>
@@ -24,5 +24,3 @@ function Contact() {
         </div>
     )
 }
-
-export default Contact

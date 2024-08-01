@@ -1,5 +1,5 @@
 
-function AboutMe() {
+export default function AboutMePage() {
     return (
       <div className="p-4">
         <h1>About Me</h1>
@@ -10,5 +10,3 @@ function AboutMe() {
       </div>
     );
   }
-  
-  export default AboutMe;

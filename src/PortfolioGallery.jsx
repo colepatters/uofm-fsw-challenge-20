@@ -1,8 +1,8 @@
 import "./assets/portfolio.css"
 import { projects } from "./assets/projectsDesc"
-import Project from "./Project"
+import Project from "./components/Project"
 
-function Portfolio() {
+export default function PortfolioGallery() {
     return (
     <div className="p-4">
         <h1 className="pb-4">Portfolio</h1>
@@ -15,5 +15,3 @@ function Portfolio() {
     </div>
     )
 }
-
-export default Portfolio

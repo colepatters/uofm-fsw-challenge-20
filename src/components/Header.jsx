@@ -2,7 +2,7 @@ import { Container, Navbar, Nav } from "react-bootstrap"
 
 function Header() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand={true} className="bg-body-tertiary">
       <Container>
         <Navbar.Brand href="/">Cole Patterson</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
