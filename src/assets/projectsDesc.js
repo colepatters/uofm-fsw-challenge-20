@@ -3,7 +3,7 @@ export const projects = [
         name: "Date Night",
         urlName: "date-night",
         thumbnail: "https://i.imgur.com/YMqnPzl.gif",
-        repoUrl: "",
+        repoUrl: "https://github.com/atengelsgjerd/Date-Night",
         deployedUrl: "",
         description: `Have you ever been "Netflix and Chill"in with your partner and been overcome with the crushing existential dread of decision paralysis? Date Night looks to alleviate that anxiety by randomizing the selection of movie, and cocktail for the evening! By using The Movie Database API, and the Cocktail Database API, we here at 'Old Fashioned Industries' have created an application that will allow you to remove the responsibility of picking the perfect Movie and Drink to Chill with your partner/buddy/paramour. Did you forget what movie you watched after drinking many of the perfectly selected cocktails for your evening, DON'T WORRY! We have a history section where you can sort by movie or cocktail and see what you have previously selected! No more black out evenings without at least knowing what movie you picked..`,
         specification: ["HTML", "CSS", "JavaScript", "Web APIs", "Third-Party APIs"]
@@ -11,10 +11,10 @@ export const projects = [
     {
         name: "Parkreation",
         urlName: "parkreation",
-        thumbnail: "https://github.com/djubara/Parkreation/blob/main/public/images/homepage.png?raw=true",
-        repoUrl: "",
+        thumbnail: "https://i.imgur.com/Y0LH4mP.gif",
+        repoUrl: "https://github.com/djubara/Parkreation",
         deployedUrl: "",
-        description: "",
+        description: "Parkreation is your ultimate companion for exploring national parks across the United States. Whether you're a seasoned traveler or a novice adventurer, Parkreation lets you discover, track, and share your national park experiences like never before.",
         specification: ["JS", "HTML"]
     },
 ]
