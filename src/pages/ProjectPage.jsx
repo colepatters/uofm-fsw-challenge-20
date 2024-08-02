@@ -1,7 +1,7 @@
 
 export default function ProjectPage(props) {
     return (
-        <div className="p-4">
+        <div className="">
             <h2>{props.project.name}</h2>
             <p>{props.project.description}</p>
 

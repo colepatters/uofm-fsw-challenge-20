@@ -1,10 +1,11 @@
-import { Container, Navbar, Nav } from "react-bootstrap"
+import { Container, Navbar, Nav, Dropdown } from "react-bootstrap"
+import theme from "../assets/theme"
 
 function Header() {
     return (
-        <Navbar expand={true} className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand href="/">Cole Patterson</Navbar.Brand>
+      <Navbar expand="sm" className="bg-body-secondary px-3">
+      <Container fluid>
+        <Navbar.Brand href="/" style={{fontWeight: "bold"}}>Cole Patterson</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -13,6 +14,18 @@ function Header() {
             <Nav.Link href="/contact">Contact</Nav.Link>
             <Nav.Link href="/resume">Resume</Nav.Link>
           </Nav>
+
+          <Dropdown>
+            <Dropdown.Toggle variant="secondary" id="dropdown-basic">
+              Change Theme
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu>
+              <Dropdown.Item onClick={theme.forceLight}>☀️ Light</Dropdown.Item>
+              <Dropdown.Item onClick={theme.forceDark}>🌑 Dark</Dropdown.Item>
+              <Dropdown.Item onClick={theme.matchSystem}>🌗 System</Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         </Navbar.Collapse>
       </Container>
     </Navbar>

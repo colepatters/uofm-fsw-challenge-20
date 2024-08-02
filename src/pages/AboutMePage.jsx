@@ -1,7 +1,7 @@
 
 export default function AboutMePage() {
     return (
-      <div className="p-4">
+      <div className="">
         <h1>About Me</h1>
         <p>
             {/* TODO */}

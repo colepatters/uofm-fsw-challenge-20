@@ -2,7 +2,7 @@ import "../assets/contact.css"
 
 export default function ContactPage() {
     return (
-        <div className="p-4">
+        <div className="">
             <h1>Contact</h1>
             <div id="contact-form-container" className="d-flex justify-content-center w-100">
                 <form className="w-100" action="">
