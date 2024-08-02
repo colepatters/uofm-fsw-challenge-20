@@ -1,11 +1,17 @@
+import IconLink from "./IconLink"
+
+import GitHubSVG from "../assets/svg/github.svg"
+import LinkedinSVG from "../assets/svg/linkedin.svg"
 
 function Footer() {
     return (
         <div className="d-flex justify-content-center align-items-center gap-2 bg-body-secondary">
             {/* github link */}
-            <a href="https://github.com/colepatters" target="_blank">Github</a>
+            <IconLink link="https://github.com/colepatters" icon={GitHubSVG} alt="GitHub profile" />
+           
             {/* linkedin link */}
-            <a href="https://www.linkedin.com/in/colepatterson4342/" target="_blank">LinkedIn</a>
+            <IconLink link="https://www.linkedin.com/in/colepatterson4342/" icon={LinkedinSVG} alt="LinkedIn profile" />
+
         </div>
     )
 }
