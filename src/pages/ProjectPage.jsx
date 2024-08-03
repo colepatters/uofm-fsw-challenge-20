@@ -3,7 +3,7 @@ import { Image } from "react-bootstrap";
 export default function ProjectPage(props) {
     return (
         <div className="gap-2">
-            <Image src={props.project.thumbnail} fluid/>
+            {/* <Image src={props.project.thumbnail} fluid/> */}
 
             <section>
                 <h2>{props.project.name}</h2>
