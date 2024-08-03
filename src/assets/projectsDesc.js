@@ -17,4 +17,13 @@ export const projects = [
         description: "Parkreation is your ultimate companion for exploring national parks across the United States. Whether you're a seasoned traveler or a novice adventurer, Parkreation lets you discover, track, and share your national park experiences like never before.",
         specification: ["JS", "HTML"]
     },
+    {
+        name: "Professional README Generator",
+        urlName: "readme-gen",
+        thumbnail: "",
+        repoUrl: "https://github.com/djubara/Parkreation",
+        deployedUrl: "",
+        description: "Parkreation is your ultimate companion for exploring national parks across the United States. Whether you're a seasoned traveler or a novice adventurer, Parkreation lets you discover, track, and share your national park experiences like never before.",
+        specification: ["JS", "HTML"]
+    },
 ]

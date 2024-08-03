@@ -3,8 +3,7 @@ export default function ResumePage() {
     return (
         <div className="">
             <h1>Resume</h1>
-            <a href="https://drive.google.com/uc?export=download&id=1K7_8i9OB0gHpJz54mWYeOrE-twJpcTUU">Download Resume</a>
-
+            <a href="https://drive.google.com/uc?export=download&id=1ZoNmF2ZTw6JN0oZc1NV3S1l74pReJlRc">Download Resume</a>
             <br />
             <section className="pt-4">
                 <h3>Front-end Skills</h3>
